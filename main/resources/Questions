@@ -1,0 +1,176 @@
+[
+{
+    "id": 1,
+    "question": "You are in a building and you hear a fire alarm. Your actions?",
+    "answers":
+    [
+        {
+            "id": 11,
+            "answer": "I'll call 101 or 112 and report what happened.",
+            "nextQuestion": 2,
+            "correctAnswer": false
+        },
+        {
+            "id": 12,
+            "answer": "I'll stay where I am and wait for instructions.",
+            "nextQuestion": 2,
+            "correctAnswer": false
+        },
+        {
+            "id": 13,
+            "answer": "I will leave the building",
+            "nextQuestion": 2,
+            "correctAnswer": true
+        }
+    ]
+},
+{
+    "id": 2,
+    "question": "What should you do while moving from the building to the street in case of fire evacuation?",
+    "answers": [
+        {
+            "id": 21,
+            "answer": "Record the video",
+            "nextQuestion": 3,
+            "correctAnswer": false
+        },
+        {
+            "id": 22,
+            "answer": "Close windows and doors in the rooms, you have last left",
+            "nextQuestion": 3,
+            "correctAnswer": true
+        },
+        {
+            "id": 23,
+            "answer": "Look around carefully",
+            "nextQuestion": 3,
+            "correctAnswer": false
+        }
+    ]
+},
+{
+    "id": 3,
+    "question": "Which direction should you move in case of fire evacuation?",
+    "answers": [
+        {
+            "id": 31,
+            "answer": "In any direction, away from the sound of the alarm",
+            "nextQuestion": 4,
+            "correctAnswer": false
+        },
+        {
+            "id": 32,
+            "answer": "In the direction indicated by evacuation signs",
+            "nextQuestion": 4,
+            "correctAnswer": true
+        },
+        {
+            "id": 33,
+            "answer": "In the direction where everyone is running",
+            "nextQuestion": 4,
+            "correctAnswer": false
+        }]
+},
+{
+    "id": 4,
+    "question": "If there is smoke in the room, where is the highest concentration of substances harmful to breathing?",
+    "answers": [
+        {
+            "id": 41,
+            "answer": "at the top",
+            "nextQuestion": 5,
+            "correctAnswer": true
+        },
+        {
+            "id": 42,
+            "answer": "At the bottom",
+            "nextQuestion": 5,
+            "correctAnswer": false
+        },
+        {
+            "id": 43,
+            "answer": "Near a fire source",
+            "nextQuestion": 5,
+            "correctAnswer": false
+        }
+    ]
+},
+{
+    "id": 5,
+    "question": "Is respiratory protection with fabric in case of fire a guarantee against poisoning by combustion products?",
+    "answers": [
+        {
+            "id": 51,
+            "answer": "Yes",
+            "nextQuestion": 6,
+            "correctAnswer": false
+        },
+        {
+            "id": 52,
+            "answer": "Just wet",
+            "nextQuestion": 6,
+            "correctAnswer": false
+        },
+        {
+            "id": 53,
+            "answer": "No",
+            "nextQuestion": 6,
+            "correctAnswer": true
+        }
+    ]
+},
+{
+    "id": 6,
+    "question": "How to move correctly in complete darkness during an evacuation in order to find a way out?",
+    "answers": [
+        {
+            "id": 61,
+            "answer": "It's impossible",
+            "nextQuestion": 7,
+            "correctAnswer": false
+        },
+        {
+            "id": 62,
+            "answer": "By memory",
+            "nextQuestion": 7,
+            "correctAnswer": false
+        },
+        {
+            "id": 63,
+            "answer": "Hold on to the walls and always turn in one direction",
+            "nextQuestion": 7,
+            "correctAnswer": true
+        }
+    ]
+},
+{
+    "id": 7,
+    "question": "What shouldn't you do during an evacuation?",
+    "answers": [
+        {
+            "id": 71,
+            "answer": "Spend time collecting things",
+            "nextQuestion": -1,
+            "correctAnswer": false
+        },
+        {
+            "id": 72,
+            "answer": "Spend time looking for friends",
+            "nextQuestion": -1,
+            "correctAnswer": false
+        },
+        {
+            "id": 73,
+            "answer": "Be panic: run, scream loudly, push",
+            "nextQuestion": -1,
+            "correctAnswer": false
+        },
+        {
+            "id": 74,
+            "answer": "all of the above",
+            "nextQuestion": -1,
+            "correctAnswer": true
+        }
+    ]
+}
+]
